@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import LogoText from '../assets/images/logos/AdriansDreamLogoText.jpeg';
 
 const Img = styled.img`
-width: 10%;
-height: auto;
+width: auto;
+height: 80px;
+@media screen and (max-width: 960px) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 `
 
 const Navbar = () => {
@@ -27,28 +33,23 @@ const closeMobileMenu = () => setClick(false);
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About
+                                ABOUT
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                                Products
+                            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
+                                PRODUCT GALLERY
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
-                                Upcoming Events
+                                UPCOMING EVENTS
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                                Contact
+                                CONTACT
                             </Link>
                         </li>
                     </ul>
