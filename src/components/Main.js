@@ -10,6 +10,11 @@ const Main = () => {
         height: 100vh;
         background: #fff;
         flex-direction: row;
+        @media screen and (max-width: 960px) {
+            flex-direction: column;
+            height: auto;
+            align-content: center;
+        }
     `
 
     const DreamcatcherLogo = styled.img`
@@ -20,6 +25,8 @@ const Main = () => {
         display: flex;
         position: relative;
         align-items: left;
+        @media screen and (max-width: 960px) {
+            margin-left: 2%;
         }
     `
 

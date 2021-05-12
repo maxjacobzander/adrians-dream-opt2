@@ -47,7 +47,11 @@ const AboutComponent = () => {
     const SarahPic = styled.img`
         height: 400px;
         width: auto;
-        border-radius: 50%
+        border-radius: 50%;
+        @media screen and (max-width: 960px) {
+            height: 200px;
+            width: auto;
+        }
     `
 
     return (
