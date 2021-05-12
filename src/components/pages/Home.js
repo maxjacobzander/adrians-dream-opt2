@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutComponent from '../AboutComponent';
+import Events from '../Events';
 import Gallery from '../Gallery';
 import Main from '../Main';
 import About from './About';
@@ -10,6 +11,7 @@ const Home = () => {
         <Main />
         <AboutComponent />
         <Gallery />
+        <Events />
         </>
     );
 }
