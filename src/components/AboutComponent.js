@@ -8,6 +8,7 @@ const AboutComponent = () => {
         background: #a3d1e7;
         height: auto;
         width: 100%;
+        margin-top: -50px;
     `
 
     const Welcome = styled.h1`
@@ -15,7 +16,6 @@ const AboutComponent = () => {
         font-weight: 700;
         font-style: normal;
         text-align: center;
-        ${'' /* margin-top: 10%; */}
         color: #1a3959;
         font-size: 6rem;
     `
@@ -70,6 +70,7 @@ const AboutComponent = () => {
                 </Signature>
                 <SarahPic src={SarahImg} alt="Sarah at booth" />
             </SarahDiv>
+            <br />
         </AboutDiv>
     );
 }
