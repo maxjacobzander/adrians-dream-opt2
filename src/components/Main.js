@@ -13,13 +13,14 @@ const Main = () => {
     `
 
     const DreamcatcherLogo = styled.img`
-    height: 80%;
-    width: auto;
-    margin-left: 15%;
-    margin-top: 5%;
-    display: flex;
-    position: relative;
-    align-items: left;
+        height: 80%;
+        width: auto;
+        margin-left: 15%;
+        margin-top: 5%;
+        display: flex;
+        position: relative;
+        align-items: left;
+        }
     `
 
     const AdriansDreamLogoText = styled.img`
