@@ -60,7 +60,7 @@ const AboutComponent = () => {
             This business is dedicated to my son Adrian.
             He passed before we could get to know him and before he could have any brothers and/or sisters.
             His life revealed to us a genetic condition that affects my health and the health of any future children.
-            I’ve created Adrian’s Dream to support my IVF journey and my sons dream of having siblings.
+            I’ve created Adrian’s Dream to support my IVF journey and my son's dream of having siblings.
             <br /><br/>
             Thank you for reading and thank you for your support!
             </Blurb>
