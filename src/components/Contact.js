@@ -50,6 +50,9 @@ const Contact = () => {
             font-weight: 300;
             font-style: normal;
             font-size: 1rem;
+            @media screen and (max-width: 960px) {
+                width: auto;
+            }
         }
         textarea[type=text] {
             width: 60%;
@@ -61,6 +64,9 @@ const Contact = () => {
             font-weight: 300;
             font-style: normal;
             font-size: 1rem;
+            @media screen and (max-width: 960px) {
+                width: auto;
+            }
         }
         input[type=submit] {
             width: 20%;
@@ -71,6 +77,9 @@ const Contact = () => {
             font-weight: 700;
             font-style: bold;
             font-size: 1.3rem;
+            @media screen and (max-width: 960px) {
+                width: auto;
+            }
         }
     `
 
