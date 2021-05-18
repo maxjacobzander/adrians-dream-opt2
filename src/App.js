@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Events from './components/Events';
 
 function App() {
+  require('dotenv').config()
   return (
     <div className="App">
       <Router>
