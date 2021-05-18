@@ -7,7 +7,7 @@ const CardItem = (props) => {
             <li className='cards__item'>
                 <Link className='cards__item__link' to={props.path}>
                     <figure className='cards__item__pic-wrap' data-category={props.label}>
-                        <img src={props.src} alt='event' className='cards__item__img' />
+                        <a href={props.link} target="_blank" rel="noreferrer noopener"><img src={props.src} alt='event' className='cards__item__img'/></a>
                     </figure>
                     <div className='cards__item__info'>
                         <h5 className='cards__item__text'>

@@ -21,6 +21,7 @@ const Gallery = () => {
         height: auto;
         color: #fff;
         font-size: 20px;
+        padding-bottom: 30px;
     `
     
     const Header = styled.h1`

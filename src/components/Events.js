@@ -20,6 +20,7 @@ const Events = () => {
         text-align: center;
         color: #1a3959;
         font-size: 6rem;
+        margin-top: -18px;
     `
 
     const EventsBlurb = styled.h3`
@@ -31,7 +32,7 @@ const Events = () => {
          font-weight: 300;
          font-style: normal;
          line-height: 2;
-        color: #1a3959;
+         color: #1a3959;
     `
 
     const CardsContainer = styled.div`
@@ -63,6 +64,7 @@ const Events = () => {
                         textName="Thursdays on Main"
                         textLocation="Clear Lake, IA"
                         label="CRAFT FAIR"
+                        link="https://www.facebook.com/ThursdaysOnMain/"
                         />
                         <CardItem
                         src={Waukee}
@@ -70,6 +72,7 @@ const Events = () => {
                         textName="Waukee Arts Festival"
                         textLocation="Waukee, IA"
                         label="CRAFT FAIR"
+                        link="https://www.waukeeartsfestival.org/"
                         />
                             <CardItem
                         src={ThursdaysOnMain}
@@ -77,6 +80,7 @@ const Events = () => {
                         textName="Thursdays on Main"
                         textLocation="Clear Lake, IA"
                         label="CRAFT FAIR"
+                        link="https://www.facebook.com/ThursdaysOnMain/"
                         />
                     </ul>
                 </CardWrapper>
