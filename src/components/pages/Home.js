@@ -1,9 +1,9 @@
 import React from 'react';
 import AboutComponent from '../AboutComponent';
+import Contact from '../Contact';
 import Events from '../Events';
 import Gallery from '../Gallery';
 import Main from '../Main';
-import About from './About';
 
 const Home = () => {
     return (
@@ -12,6 +12,7 @@ const Home = () => {
         <AboutComponent />
         <Gallery />
         <Events />
+        <Contact />
         </>
     );
 }
