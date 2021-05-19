@@ -48,7 +48,7 @@ const Gallery = () => {
     `
 
     return (
-        <GalleryCarousel>
+        <GalleryCarousel id="gallery">
         <br/>
         <Header>product gallery</Header>
         <ProductMessage>

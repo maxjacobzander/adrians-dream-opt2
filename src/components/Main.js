@@ -10,7 +10,7 @@ const Main = () => {
         height: 100vh;
         background: #fff;
         flex-direction: row;
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 1025px) {
             flex-direction: column;
             height: auto;
             align-content: center;
@@ -25,8 +25,10 @@ const Main = () => {
         display: flex;
         position: relative;
         align-items: left;
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 1025px) {
             margin-left: 2%;
+            height: 70%;
+            width: auto;
         }
     `
 
@@ -40,7 +42,7 @@ const Main = () => {
     `
 
     return (
-        <LogoDiv className='main-container'>
+        <LogoDiv className='main-container' id="main">
             <DreamcatcherLogo src={dreamcatcher} alt="Dreamcatcher Logo" />
             <AdriansDreamLogoText src={img} alt="Adrian's Dream Logo" />
         </LogoDiv>

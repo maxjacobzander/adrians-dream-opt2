@@ -7,7 +7,6 @@ const Contact = () => {
         background: #a3d1e7;
         height: auto;
         width: 100%;
-        margin-top: -65px;
         font-size: 20px;
         padding-bottom: 30px;
     `
@@ -50,8 +49,8 @@ const Contact = () => {
             font-weight: 300;
             font-style: normal;
             font-size: 1rem;
-            @media screen and (max-width: 960px) {
-                width: auto;
+            @media screen and (max-width: 1025px) {
+                width: 100%;
             }
         }
         textarea[type=text] {
@@ -64,8 +63,8 @@ const Contact = () => {
             font-weight: 300;
             font-style: normal;
             font-size: 1rem;
-            @media screen and (max-width: 960px) {
-                width: auto;
+            @media screen and (max-width: 1025px) {
+                width: 100%;
             }
         }
         input[type=submit] {
@@ -77,7 +76,7 @@ const Contact = () => {
             font-weight: 700;
             font-style: bold;
             font-size: 1.3rem;
-            @media screen and (max-width: 960px) {
+            @media screen and (max-width: 1025px) {
                 width: auto;
             }
         }
@@ -96,7 +95,7 @@ const Contact = () => {
     }
     
     return (
-        <ContactWrapper>
+        <ContactWrapper id="contact">
         <br />
           <ContactHeader>
           get in touch

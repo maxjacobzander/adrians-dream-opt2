@@ -10,7 +10,10 @@ const Events = () => {
         background: #eee3b1;
         font-size: 20px;
         margin-top: -35px;
-        padding: 4rem;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
     `
 
     const EventsHeader = styled.h1`
@@ -21,6 +24,7 @@ const Events = () => {
         color: #1a3959;
         font-size: 6rem;
         margin-top: -18px;
+        padding-top: 50px;
     `
 
     const EventsBlurb = styled.h3`
@@ -48,12 +52,14 @@ const Events = () => {
 
 
     return (
-        <UpcomingEventsDiv>
+        <UpcomingEventsDiv id="events">
             <EventsHeader>upcoming events</EventsHeader>
             <EventsBlurb>
-            Adrian's Dream is a frequent vendor at craft fairs throughout Iowa! In addition to finding us at a craft fair near you, we also offer workshops where Sarah teaches you to create your own special dreamcatchers!
+            In addition to our workshops, Adrian's Dream is a frequent vendor at craft fairs throughout Iowa!
+            <br />
+            Find us at a craft fair near you!
             <br/>
-            Check back here for both upcoming craft fair appearances and workshop dates/locations, and contact us to discuss scheduling a workshop near you!
+            Check back here for both upcoming craft fair appearances and workshop dates/locations!
             </EventsBlurb>
             <CardsContainer>
                 <CardWrapper>

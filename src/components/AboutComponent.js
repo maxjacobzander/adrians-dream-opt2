@@ -48,14 +48,14 @@ const AboutComponent = () => {
         height: 400px;
         width: auto;
         border-radius: 50%;
-        @media screen and (max-width: 960px) {
+        @media screen and (max-width: 1025px) {
             height: 200px;
             width: auto;
         }
     `
 
     return (
-        <AboutDiv>
+        <AboutDiv id="about">
             <Welcome>
                 <br />
                 welcome to adrian's dream
