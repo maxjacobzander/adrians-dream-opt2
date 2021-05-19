@@ -36,6 +36,7 @@ const About = () => {
         margin: auto;
         @media screen and (max-width: 1025px) {
         font-size: 20px;
+        text-align: center;
         }
     `
 

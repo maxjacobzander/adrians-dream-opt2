@@ -43,6 +43,7 @@ const Events = () => {
          color: #1a3959;
          @media screen and (max-width: 1025px) {
             font-size: 20px;
+            text-align: center;
         }
     `
 

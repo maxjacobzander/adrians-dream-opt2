@@ -56,6 +56,7 @@ const Workshops = () => {
             width: 80%;
             align-items: center;
             margin-left: 10%;
+            text-align: center;
         }
     `
 

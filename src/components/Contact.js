@@ -38,7 +38,7 @@ const Contact = () => {
         margin-top: -20px;
         margin-bottom: 20px;
         @media screen and (max-width: 1025px) {
-        font-size: 20px;
+            font-size: 20px;
         }
     `
 
