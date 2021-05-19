@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SarahImg from '../assets/images/main_images/Sarah at Adrians Dream Desk.jpeg'
 
-const AboutComponent = () => {
+const About = () => {
 
     const AboutDiv = styled.div`
         background: #a3d1e7;
@@ -42,6 +42,9 @@ const AboutComponent = () => {
         font-size: 7rem;
         text-align: center;
         color: #1a3959;
+        @media screen and (max-width: 1025px) {
+            font-size: 5rem;
+        }
     `
 
     const SarahPic = styled.img`
@@ -49,8 +52,9 @@ const AboutComponent = () => {
         width: auto;
         border-radius: 50%;
         @media screen and (max-width: 1025px) {
-            height: 200px;
-            width: auto;
+            height: auto;
+            width: 95%;
+            margin-top: -40px;
         }
     `
 
@@ -79,4 +83,4 @@ const AboutComponent = () => {
     );
 }
 
-export default AboutComponent;
+export default About;

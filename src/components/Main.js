@@ -12,8 +12,10 @@ const Main = () => {
         flex-direction: row;
         @media screen and (max-width: 1025px) {
             flex-direction: column;
+            width: auto;
             height: auto;
             align-content: center;
+            padding-bottom: 30px;
         }
     `
 
@@ -27,8 +29,7 @@ const Main = () => {
         align-items: left;
         @media screen and (max-width: 1025px) {
             margin-left: 2%;
-            height: 70%;
-            width: auto;
+            width: 90%;
         }
     `
 
@@ -39,6 +40,10 @@ const Main = () => {
         position: relative;
         margin-left: 5%;
         margin-top: 5%;
+        @media screen and (max-width: 1025px) {
+            height: auto;
+            width: 90%;
+        }
     `
 
     return (
