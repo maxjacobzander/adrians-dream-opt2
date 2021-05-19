@@ -27,7 +27,7 @@ const About = () => {
         font-family: factoria, serif;
         font-weight: 300;
         font-style: normal;
-        text-align: center;
+        text-align: justify;
         align-items: center;
         font-size: 1.7rem;
         line-height: 2;
@@ -76,7 +76,7 @@ const About = () => {
             His life revealed to us a genetic condition that affects my health and the health of any future children.
             I’ve created Adrian’s Dream to support my IVF journey and my son's dream of having siblings.
             <br /><br/>
-            Thank you for reading and thank you for your support!
+            <p style={{textAlign: "center"}}>Thank you for reading and thank you for your support! </p>
             </Blurb>
             <SarahDiv>
                 <Signature>

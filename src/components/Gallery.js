@@ -45,6 +45,7 @@ const Gallery = () => {
         font-family: factoria, serif;
         font-weight: 300;
         font-style: normal;
+        font-size: 1.7rem;
         line-height: 2;
         margin-bottom: 3%;
         margin-top: -40px;
@@ -58,7 +59,7 @@ const Gallery = () => {
         <br/>
         <Header>product gallery</Header>
         <ProductMessage>
-        Here are some examples of the products I have made for my clients. If you see one that you particularly like, or want to create something entirely your own, let me know!
+        Here are some examples of the creations Sarah has made for her clients. If you see one that you particularly like, or want to create something uniquely your own, let us know!
         </ProductMessage>
             <Carousel infiniteLoop useKeyboardArrows autoPlay style={{height:"10px"}}>
                 <div>
