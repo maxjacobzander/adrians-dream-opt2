@@ -31,6 +31,9 @@ const Gallery = () => {
         text-align: center;
         font-size: 6rem;
         margin-top: 5%;
+        @media screen and (max-width: 1025px) {
+            line-height: .9;
+        }
     `
     
     const ProductMessage = styled.p`
@@ -45,6 +48,9 @@ const Gallery = () => {
         line-height: 2;
         margin-bottom: 3%;
         margin-top: -40px;
+        @media screen and (max-width: 1025px) {
+        font-size: 20px;
+        }
     `
 
     return (

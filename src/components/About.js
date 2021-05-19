@@ -18,6 +18,9 @@ const About = () => {
         text-align: center;
         color: #1a3959;
         font-size: 6rem;
+        @media screen and (max-width: 1025px) {
+            line-height: .9;
+        }
     `
 
     const Blurb = styled.p`
@@ -31,6 +34,9 @@ const About = () => {
         color: #1a3959;
         width: 78%;
         margin: auto;
+        @media screen and (max-width: 1025px) {
+        font-size: 20px;
+        }
     `
 
     const SarahDiv = styled.div`

@@ -17,6 +17,9 @@ const Workshops = () => {
     color: #1a3959;
     font-size: 6rem;
     padding-top: 5%;
+    @media screen and (max-width: 1025px) {
+            line-height: .9;
+        }
     `
 
     const WorkshopBlurb = styled.p`
@@ -30,6 +33,9 @@ const Workshops = () => {
     color: #1a3959;
     width: 78%;
     margin: auto;
+    @media screen and (max-width: 1025px) {
+        font-size: 20px;
+    }
 `
 
     return (

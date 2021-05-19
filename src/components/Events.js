@@ -25,6 +25,9 @@ const Events = () => {
         font-size: 6rem;
         margin-top: -18px;
         padding-top: 50px;
+        @media screen and (max-width: 1025px) {
+            line-height: .9;
+        }
     `
 
     const EventsBlurb = styled.h3`
@@ -37,6 +40,9 @@ const Events = () => {
          font-style: normal;
          line-height: 2;
          color: #1a3959;
+         @media screen and (max-width: 1025px) {
+        font-size: 20px;
+        }
     `
 
     const CardsContainer = styled.div`

@@ -18,6 +18,10 @@ const Contact = () => {
         text-align: center;
         color: #1a3959;
         font-size: 6rem;
+        @media screen and (max-width: 1025px) {
+            line-height: .9;
+            font-size: 5.5rem;
+        }
     `
 
     const ContactBlurb = styled.h3`
@@ -32,6 +36,9 @@ const Contact = () => {
         color: #1a3959;
         margin-top: -20px;
         margin-bottom: 20px;
+        @media screen and (max-width: 1025px) {
+        font-size: 20px;
+        }
     `
 
     const ContactForm = styled.div`
