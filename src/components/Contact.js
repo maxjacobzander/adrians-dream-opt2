@@ -32,6 +32,7 @@ const Contact = () => {
         font-family: factoria, serif;
         font-weight: 300;
         font-style: normal;
+        font-size: 1.7rem;
         line-height: 2;
         color: #1a3959;
         margin-top: -20px;
@@ -108,7 +109,7 @@ const Contact = () => {
           get in touch
           </ContactHeader>
           <ContactBlurb>
-              To get in touch with us about purchasing any of our products, discuss scheduling a workshop, or to ask any others questions, please fill out the form below!
+              To get in touch with us about purchasing any of our creations, discuss scheduling a workshop, or to ask any others questions, please fill out the form below!
           </ContactBlurb>
             <ContactForm>
                 <form onSubmit={sendEmail}>

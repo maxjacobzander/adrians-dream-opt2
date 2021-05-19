@@ -33,15 +33,16 @@ const Events = () => {
     const EventsBlurb = styled.h3`
          width: 80%;
          align-items: center;
-         text-align: center;
+         text-align: justify;
          margin: auto;
          font-family: factoria, serif;
          font-weight: 300;
          font-style: normal;
+         font-size: 1.7rem;
          line-height: 2;
          color: #1a3959;
          @media screen and (max-width: 1025px) {
-        font-size: 20px;
+            font-size: 20px;
         }
     `
 
@@ -61,11 +62,9 @@ const Events = () => {
         <UpcomingEventsDiv id="events">
             <EventsHeader>upcoming events</EventsHeader>
             <EventsBlurb>
-            In addition to our workshops, Adrian's Dream is a frequent vendor at craft fairs throughout Iowa!
-            <br />
-            Find us at a craft fair near you!
+            In addition to our workshops, Adrian's Dream is a frequent vendor at craft fairs throughout the state of Iowa! Find us at a craft fair near you to check our current macramés & dreamcatchers; to commission a special piece just for you; or to just say hi!
             <br/>
-            Check back here for both upcoming craft fair appearances and workshop dates/locations!
+            <p style={{textAlign:"center"}}>Check back here for both upcoming craft fair appearances and workshop dates/locations!</p>
             </EventsBlurb>
             <CardsContainer>
                 <CardWrapper>
