@@ -12,8 +12,8 @@ const Home = () => {
         <>
         <Main />
         <About />
-        <Gallery />
         <Workshops />
+        <Gallery />
         <Events />
         <Contact />
         <Footer />

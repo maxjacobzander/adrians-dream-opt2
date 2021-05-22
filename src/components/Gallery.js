@@ -22,6 +22,7 @@ const Gallery = () => {
         color: #fff;
         font-size: 20px;
         padding-bottom: 30px;
+        margin-top: -55px;
     `
     
     const Header = styled.h1`
@@ -30,7 +31,7 @@ const Gallery = () => {
         font-style: normal;
         text-align: center;
         font-size: 6rem;
-        margin-top: 5%;
+        margin-top: 2%;
         @media screen and (max-width: 1025px) {
             line-height: .9;
         }
@@ -57,9 +58,9 @@ const Gallery = () => {
     return (
         <GalleryCarousel id="gallery">
         <br/>
-        <Header>product gallery</Header>
+        <Header>gallery</Header>
         <ProductMessage>
-        Here are some examples of the creations Sarah has made for her clients. If you see one that you particularly like, or want to create something uniquely your own, let us know!
+        Here are some examples of the creations Sarah has made for her clients as well as some photos from past workshops. If you see anything that you like, or want to book a workshop of your own, please let us know!
         </ProductMessage>
             <Carousel infiniteLoop useKeyboardArrows autoPlay style={{height:"10px"}}>
                 <div>

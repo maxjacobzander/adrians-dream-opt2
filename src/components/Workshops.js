@@ -7,10 +7,11 @@ import LargeWorkshopGroup from '../assets/images/workshops/IMG_0674.jpeg';
 const Workshops = () => {
     const WorkshopWrapper = styled.div`
         background: #fff;
+        color: #1a3959;
         height: auto;
         width: 100%;
-        margin-top: -50px;
-        margin-bottom: 50px;
+        margin-top: -66px;
+        margin-bottom: 55px;
     `
 
     const SubWrapper = styled.div`
@@ -32,7 +33,6 @@ const Workshops = () => {
         font-weight: 700;
         font-style: normal;
         text-align: center;
-        color: #1a3959;
         font-size: 6rem;
         padding-top: 5%;
         @media screen and (max-width: 1025px) {
@@ -48,7 +48,6 @@ const Workshops = () => {
         align-items: center;
         font-size: 1.7rem;
         line-height: 2;
-        color: #1a3959;
         width: 50%;
         margin-left: 10%;
         @media screen and (max-width: 1025px) {

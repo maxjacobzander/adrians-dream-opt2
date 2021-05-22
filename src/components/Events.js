@@ -63,7 +63,7 @@ const Events = () => {
         <UpcomingEventsDiv id="events">
             <EventsHeader>upcoming events</EventsHeader>
             <EventsBlurb>
-            In addition to our workshops, Adrian's Dream is a frequent vendor at craft fairs throughout the state of Iowa! Find us at a craft fair near you to check our current macramés & dreamcatchers; to commission a special piece just for you; or to just say hi!
+            In addition to our workshops, Adrian's Dream is a frequent vendor at craft fairs throughout the state of Iowa! Find us at a craft fair near you to check our current crafts; to commission a special piece just for you; or to just say hi!
             <br/>
             <p style={{textAlign:"center"}}>Check back here for both upcoming craft fair appearances and workshop dates/locations!</p>
             </EventsBlurb>

@@ -54,18 +54,6 @@ const closeMobileMenu = () => setClick(false);
                         </li>
                         <li className='nav-item'>
                             <Link
-                            to='gallery'
-                            className='nav-links'
-                            onClick={closeMobileMenu}
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}>
-                                PRODUCT GALLERY
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link
                             to='workshops'
                             className='nav-links'
                             onClick={closeMobileMenu}
@@ -74,6 +62,18 @@ const closeMobileMenu = () => setClick(false);
                             offset={-70}
                             duration={500}>
                                 WORKSHOPS
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                            to='gallery'
+                            className='nav-links'
+                            onClick={closeMobileMenu}
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                                GALLERY
                             </Link>
                         </li>
                         <li className='nav-item'>
