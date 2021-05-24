@@ -22,7 +22,7 @@ const CopyrightInfo = styled.p`
 
 const Footer = () => {
     return (
-        <FooterContainer>
+        <FooterContainer id="footer">
         <a href="https://www.facebook.com/ThisisAdriansDream/"><FacebookIcon className= 'fab fa-facebook fa-2x' /></a>
         <CopyrightInfo>
             © Adrian's Dream 2021
