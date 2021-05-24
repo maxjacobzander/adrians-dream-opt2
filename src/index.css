@@ -17,3 +17,9 @@ code {
   width: auto;
   height: 450px;
 }
+
+.carousel li.thumb img {
+  /* display: none;
+  border: hidden; */
+  height: 100px;
+}

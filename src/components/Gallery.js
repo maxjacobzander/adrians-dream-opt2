@@ -13,6 +13,19 @@ import Img8 from '../assets/images/dreamcatchers/Feathers on stick tricolor.jpeg
 import Img9 from '../assets/images/dreamcatchers/Feathers on stick white in middle.jpeg';
 import Img10 from '../assets/images/dreamcatchers/Heart Macrame.jpeg';
 import Img11 from '../assets/images/dreamcatchers/White feather on stick.jpeg';
+import SarahWorkshopPic from '../assets/images/workshops/IMG_0670.jpeg';
+import PrivateWorkshopPic from '../assets/images/workshops/IMG_0682.jpeg';
+import WorkshopGroupPic from '../assets/images/workshops/IMG_0659.jpeg';
+import Carcatcher from '../assets/images/dreamcatchers/Carcatcher.jpeg';
+import Kits from '../assets/images/dreamcatchers/DIY Kits.jpeg';
+import Moon1 from '../assets/images/dreamcatchers/IMG_0904.jpeg';
+import Moon2 from '../assets/images/dreamcatchers/IMG_0905.JPG';
+import Moon3 from '../assets/images/dreamcatchers/IMG_0906.JPG';
+import ThreeUnicorns from '../assets/images/dreamcatchers/3 Unicorns.jpg';
+import TwoDreamcatchersAndMacrame from '../assets/images/dreamcatchers/2 dreamcatchers and one macrame on wall.jpeg';
+import GirlWithDreamcatcher1 from '../assets/images/workshops/IMG_0675.jpeg';
+import GirlWithDreamcatcher2 from '../assets/images/workshops/IMG_0676.jpeg';
+import CreamDreamcatacherWithDarkFlower from '../assets/images/dreamcatchers/Cream dreamcatcher with dark flower.jpeg';
 
 const Gallery = () => {
     
@@ -64,10 +77,37 @@ const Gallery = () => {
         </ProductMessage>
             <Carousel infiniteLoop useKeyboardArrows autoPlay style={{height:"10px"}}>
                 <div>
+                    <img src={SarahWorkshopPic} alt="Sarah at Workshop" />
+                </div>
+                <div>
+                    <img src={ThreeUnicorns} alt="Three Unicorns" />
+                </div>
+                <div>
                     <img src={Img1} alt="Dreamcatcher with Black Background 1" />
                 </div>
                 <div>
                     <img src={Img2} alt="Dreamcatcher with Black Background 2" />
+                </div>
+                <div>
+                    <img src={Carcatcher} alt="Carcatcher" />
+                </div>
+                <div>
+                    <img src={Kits} alt="BYO Kits" />
+                </div>
+                <div>
+                    <img src={WorkshopGroupPic} alt="Large Group Workshop" />
+                </div>
+                <div>
+                    <img src={PrivateWorkshopPic} alt="Private Workshop" />
+                </div>
+                <div>
+                    <img src={GirlWithDreamcatcher1} alt="Girl with Dreamcatcher 1" />
+                </div>
+                <div>
+                    <img src={GirlWithDreamcatcher2} alt="Girl with Dreamcatcher 2" />
+                </div>
+                <div>
+                    <img src={Moon1} alt="Moon 1" />
                 </div>
                 <div>
                     <img src={Img3} alt="Dreamcatcher for Turtle" />
@@ -85,6 +125,9 @@ const Gallery = () => {
                     <img src={Img7} alt="Unicorn Dreamcatcher" />
                 </div>
                 <div>
+                    <img src={Moon2} alt="Moon 2" />
+                </div>
+                <div>
                     <img src={Img8} alt="Feathers on Stick, Tricolor" />
                 </div>
                 <div>
@@ -95,6 +138,15 @@ const Gallery = () => {
                 </div>
                 <div>
                     <img src={Img11} alt="White feather on Stick" />
+                </div>
+                <div>
+                    <img src={Moon3} alt="Moon 3" />
+                </div>
+                <div>
+                    <img src={TwoDreamcatchersAndMacrame} alt="Two Dreamcatchers" />
+                </div>
+                <div>
+                    <img src={CreamDreamcatacherWithDarkFlower} alt="Cream Dreamcatcher with Dark Flower" />
                 </div>
             </Carousel>
 

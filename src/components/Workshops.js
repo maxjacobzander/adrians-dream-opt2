@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import SarahWorkshopPic from '../assets/images/workshops/IMG_0670.jpeg';
 import LargeWorkshopGroup from '../assets/images/workshops/IMG_0674.jpeg';
-// import PrivateWorkshopPic from '../assets/images/workshops/IMG_0682.jpeg';
 
 const Workshops = () => {
     const WorkshopWrapper = styled.div`
