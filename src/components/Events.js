@@ -80,7 +80,7 @@ const Events = () => {
                         />
                         <CardItem
                         src={Waukee}
-                        textDate="July 16"
+                        textDate="July 17"
                         textName="Waukee Arts Festival"
                         textLocation="Waukee, IA"
                         label="CRAFT FAIR"

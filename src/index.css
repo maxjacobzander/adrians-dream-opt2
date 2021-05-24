@@ -12,7 +12,13 @@ code {
     monospace;
 
   }
-  
+
+/* .carousel .slide  {
+  @media screen and (max-width: 1025px) {
+    
+  }
+} */
+
 .carousel li.slide img {
   width: auto;
   height: 450px;

@@ -5,7 +5,7 @@ describe("renders the page", () => {
 })
 
 describe("entire page scrolls", () => {
-    it("can scrolls all the way to the footer", () => {
+    it("can scroll all the way to the footer", () => {
         cy.visit("/")
         cy.scrollTo('bottom').get("#footer");
     })
@@ -18,5 +18,12 @@ describe("has a complete navbar", () => {
         cy.get("nav").children().should('contain.text', 'GALLERY')
         cy.get("nav").children().should('contain.text', 'UPCOMING EVENTS')
         cy.get("nav").children().should('contain.text', 'CONTACT')
+    })
+})
+
+describe("gallery thumbnails can be clicked", () => {
+    it("can click on the gallery thumbnails", () => {
+        cy.get("#gallery")
+        cy.get('.carousel li.thumb').last().click()
     })
 })
