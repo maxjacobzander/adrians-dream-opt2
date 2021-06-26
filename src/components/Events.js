@@ -4,6 +4,7 @@ import CardItem from './CardItem';
 import './Cards.css';
 import ThursdaysOnMain from '../assets/images/art_generic/Thursdays on Main.png';
 import Waukee from '../assets/images/art_generic/Waukee Arts Festival.jpeg';
+import WestDesMoines from '../assets/images/art_generic/West Des Moines.png';
 
 const Events = () => {
     const UpcomingEventsDiv = styled.div`
@@ -78,7 +79,15 @@ const Events = () => {
                         label="CRAFT FAIR"
                         link="https://www.waukeeartsfestival.org/"
                         />
-                            <CardItem
+                        <CardItem
+                        src={WestDesMoines}
+                        textDate="July 31"
+                        textName="Local Makers Market"
+                        textLocation="West Des Moines, IA"
+                        label="CRAFT FAIR"
+                        link="https://www.facebook.com/WDMPR"
+                        />
+                        <CardItem
                         src={ThursdaysOnMain}
                         textDate="August 19"
                         textName="Thursdays on Main"
