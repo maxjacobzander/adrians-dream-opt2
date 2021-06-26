@@ -9,4 +9,4 @@ The website will feature the following sections: About, Workshops, Gallery, Upco
 I wrote a few basic tests using Cypress to make sure that things are loading in properly. You can run the tests in the console by running npm run cypress:all.
 
 ## Planned Updates
-I plan to create an Admin page to allow the company's owner to easily update photos and upcoming events. I will also possibly add an FAQ section, if it is deemed a good idea
+The website is currently functional and can be found at https://www.adriansdream.com but I am still planning to build a backend in the coming weeks, mainly so that events don't need to be hardcoded.
