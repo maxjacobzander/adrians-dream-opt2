@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import './Navbar.css';
-// import { Link } from 'react-router-dom';
 import { Link } from 'react-scroll';
 import LogoText from '../assets/images/logos/AdriansDreamLogoText.jpeg';
 
