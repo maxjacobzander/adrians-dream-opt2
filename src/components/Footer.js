@@ -27,7 +27,7 @@ const Footer = () => {
         <CopyrightInfo>
             © Adrian's Dream 2021
             <br />
-            Designed by Max Zander 
+            Designed by <a href="https://www.maxjacobzander.netlify.app/" style={{color:'#fff'}}>Max Zander</a>
         </CopyrightInfo>
         </FooterContainer>
     );
