@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import CardItem from './CardItem';
 import './Cards.css';
 import ThursdaysOnMain from '../assets/images/art_generic/Thursdays on Main.png';
-import Waukee from '../assets/images/art_generic/Waukee Arts Festival.jpeg';
+// import Waukee from '../assets/images/art_generic/Waukee Arts Festival.jpeg';
 import WestDesMoines from '../assets/images/art_generic/West Des Moines.png';
 
 const Events = () => {
@@ -71,14 +71,6 @@ const Events = () => {
             <CardsContainer>
                 <CardWrapper>
                     <ul className="cards__items">
-                        <CardItem
-                        src={Waukee}
-                        textDate="July 17"
-                        textName="Waukee Arts Festival"
-                        textLocation="Waukee, IA"
-                        label="CRAFT FAIR"
-                        link="https://www.waukeeartsfestival.org/"
-                        />
                         <CardItem
                         src={WestDesMoines}
                         textDate="July 31"
