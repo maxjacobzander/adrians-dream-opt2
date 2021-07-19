@@ -5,6 +5,7 @@ import './Cards.css';
 import ThursdaysOnMain from '../assets/images/art_generic/Thursdays on Main.png';
 // import Waukee from '../assets/images/art_generic/Waukee Arts Festival.jpeg';
 import WestDesMoines from '../assets/images/art_generic/West Des Moines.png';
+import PolkMakersMarket from '../assets/images/art_generic/Polk County Makers Market.jpeg';
 
 const Events = () => {
     const UpcomingEventsDiv = styled.div`
@@ -86,6 +87,14 @@ const Events = () => {
                         textLocation="Clear Lake, IA"
                         label="CRAFT FAIR"
                         link="https://www.facebook.com/ThursdaysOnMain/"
+                        />
+                        <CardItem
+                        src={PolkMakersMarket}
+                        textDate="November 21"
+                        textName="Fall Makers Market - Locally Grown, Raised, Created"
+                        textLocation="Granger, IA"
+                        label="CRAFT FAIR"
+                        link="https://www.jesterparknaturecenter.com/calendar-events/fall-makers-market/?fbclid=IwAR0qhNiegEa49U9LSuc_asPPYaa30NKzeSHGLt0drRB88fSzVgXFVQg01zs"
                         />
                     </ul>
                 </CardWrapper>
