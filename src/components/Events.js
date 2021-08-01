@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import CardItem from './CardItem';
 import './Cards.css';
 import ThursdaysOnMain from '../assets/images/art_generic/Thursdays on Main.png';
-// import Waukee from '../assets/images/art_generic/Waukee Arts Festival.jpeg';
-import WestDesMoines from '../assets/images/art_generic/West Des Moines.png';
 import PolkMakersMarket from '../assets/images/art_generic/Polk County Makers Market.jpeg';
 
 const Events = () => {
@@ -79,6 +77,14 @@ const Events = () => {
                         textLocation="Clear Lake, IA"
                         label="CRAFT FAIR"
                         link="https://www.facebook.com/ThursdaysOnMain/"
+                        />
+                        <CardItem
+                        src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/222683330_1128901587598073_8238544305429981975_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=340051&_nc_ohc=AHwN-c-2m7UAX9cfGxM&_nc_ht=scontent-lga3-1.xx&oh=e96a6467a6c0e8895668f37fd1a1f376&oe=610B289D"
+                        textDate="September 18"
+                        textName="Make A Dream Catcher Workshop - A Mindful Craft"
+                        textLocation="Ventura, IA"
+                        label="WORKSHOP"
+                        link="https://www.facebook.com/events/820997698788649/?ti=ls"
                         />
                         <CardItem
                         src={PolkMakersMarket}
