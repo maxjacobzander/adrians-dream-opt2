@@ -73,14 +73,6 @@ const Events = () => {
                 <CardWrapper>
                     <ul className="cards__items">
                         <CardItem
-                        src={WestDesMoines}
-                        textDate="July 31"
-                        textName="Local Makers Market"
-                        textLocation="West Des Moines, IA"
-                        label="CRAFT FAIR"
-                        link="https://www.facebook.com/WDMPR"
-                        />
-                        <CardItem
                         src={ThursdaysOnMain}
                         textDate="August 19"
                         textName="Thursdays on Main"
