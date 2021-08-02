@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import styled from 'styled-components';
+import * as Styled from './Gallery.style';
 import Img1 from '../assets/images/dreamcatchers/Dreamcatcher black background with feathers.jpeg';
 import Img2 from '../assets/images/dreamcatchers/Dreamcatcher with black background and flowers.jpeg';
 import Img3 from '../assets/images/dreamcatchers/Dreamcatcher for Turtle.jpeg';
@@ -29,53 +29,14 @@ import CreamDreamcatacherWithDarkFlower from '../assets/images/dreamcatchers/Cre
 import Totebag from '../assets/images/main_images/Adrians_Dream_Tote.jpeg';
 
 const Gallery = () => {
-    
-    const GalleryCarousel = styled.div`
-        background: #1a3959;
-        height: auto;
-        color: #fff;
-        font-size: 20px;
-        padding-bottom: 30px;
-        margin-top: -55px;
-    `
-    
-    const Header = styled.h1`
-        font-family: turbinado-pro, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        text-align: center;
-        font-size: 6rem;
-        margin-top: 2%;
-        @media screen and (max-width: 1025px) {
-            line-height: .9;
-        }
-    `
-    
-    const ProductMessage = styled.p`
-        display: flex;
-        width: 80%;
-        align-items: center;
-        text-align: center;
-        margin: auto;
-        font-family: factoria, serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.7rem;
-        line-height: 2;
-        margin-bottom: 3%;
-        margin-top: -40px;
-        @media screen and (max-width: 1025px) {
-        font-size: 20px;
-        }
-    `
 
     return (
-        <GalleryCarousel id="gallery">
+        <Styled.GalleryCarousel id="gallery">
         <br/>
-        <Header>gallery</Header>
-        <ProductMessage>
+        <Styled.Header>gallery</Styled.Header>
+        <Styled.ProductMessage>
         Here are some examples of the creations Sarah has made for her clients as well as some photos from past workshops. If you see anything that you like, or want to book a workshop of your own, please let us know!
-        </ProductMessage>
+        </Styled.ProductMessage>
             <Carousel infiniteLoop useKeyboardArrows autoPlay style={{height:"10px"}}>
                 <div>
                     <img src={SarahWorkshopPic} alt="Sarah at Workshop" />
@@ -154,7 +115,7 @@ const Gallery = () => {
                 </div>
             </Carousel>
 
-        </GalleryCarousel>
+        </Styled.GalleryCarousel>
     );
 }
 
