@@ -26,6 +26,7 @@ import TwoDreamcatchersAndMacrame from '../assets/images/dreamcatchers/2 dreamca
 import GirlWithDreamcatcher1 from '../assets/images/workshops/IMG_0675.jpeg';
 import GirlWithDreamcatcher2 from '../assets/images/workshops/IMG_0676.jpeg';
 import CreamDreamcatacherWithDarkFlower from '../assets/images/dreamcatchers/Cream dreamcatcher with dark flower.jpeg';
+import Totebag from '../assets/images/main_images/Adrians_Dream_Tote.jpeg';
 
 const Gallery = () => {
     
@@ -78,6 +79,9 @@ const Gallery = () => {
             <Carousel infiniteLoop useKeyboardArrows autoPlay style={{height:"10px"}}>
                 <div>
                     <img src={SarahWorkshopPic} alt="Sarah at Workshop" />
+                </div>
+                <div>
+                    <img src={Totebag} alt="Adrian's Dream Tote Bag" />
                 </div>
                 <div>
                     <img src={ThreeUnicorns} alt="Three Unicorns" />
