@@ -26,7 +26,7 @@ const Events = () => {
                         link="https://www.facebook.com/ThursdaysOnMain/"
                         />
                         <CardItem
-                        src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/222683330_1128901587598073_8238544305429981975_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=340051&_nc_ohc=AHwN-c-2m7UAX9cfGxM&_nc_ht=scontent-lga3-1.xx&oh=e96a6467a6c0e8895668f37fd1a1f376&oe=610B289D"
+                        src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/222683330_1128901587598073_8238544305429981975_n.jpg?_nc_cat=100&ccb=1-4&_nc_sid=340051&_nc_ohc=rpCRrQPD3MUAX8hnHM8&_nc_ht=scontent-lga3-1.xx&oh=7bac51bd77323cd2ba733bd833c68b3a&oe=61150BDD"
                         textDate="September 18"
                         textName="Make A Dream Catcher Workshop - A Mindful Craft"
                         textLocation="Ventura, IA"
