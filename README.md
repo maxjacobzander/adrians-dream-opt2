@@ -10,3 +10,5 @@ I wrote a few basic tests using Cypress to make sure that things are loading in 
 
 ## Planned Updates
 The website is currently functional and can be found at https://www.adriansdream.com but I am still planning to build a backend in the coming weeks, mainly so that events don't need to be hardcoded.
+### Updated Planned Updates
+Backend is underway. Fetch (at least) events. Pass props from there and set a limit (3?) for events that have not occurred yet
