@@ -18,14 +18,6 @@ const Events = () => {
                 <Styled.CardWrapper>
                     <ul className="cards__items">
                         <CardItem
-                        src={ThursdaysOnMain}
-                        textDate="August 19"
-                        textName="Thursdays on Main"
-                        textLocation="Clear Lake, IA"
-                        label="CRAFT FAIR"
-                        link="https://www.facebook.com/ThursdaysOnMain/"
-                        />
-                        <CardItem
                         src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/222683330_1128901587598073_8238544305429981975_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=c1IM_f1sBp4AX9GKxNy&_nc_ht=scontent-lga3-1.xx&oh=80c34c5241b43b53beb0253f76b30054&oe=611EEF1D" alt="Dreamcatcher and making materials on table"
                         textDate="September 18"
                         textName="Make A Dream Catcher Workshop - A Mindful Craft"
